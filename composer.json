@@ -1,0 +1,42 @@
+{
+    "name": "fabriziocaldarelli/yii2-vueapp-vuejs-datepicker",
+    "description": "Uiv plugin for Yii2 VueApp package",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","vue", "uiv"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Fabrizio Caldarelli",
+            "email": "fabrizio.caldarelli@gmail.com"
+        }
+    ],
+    "require": {
+        "npm-asset/uiv": "^0.34.2"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-coding-standards": "~2.0",
+        "phpunit/phpunit": "<7"
+    },    
+    "autoload": {
+        "psr-4": {
+            "sfmobile\\vueapp\\assets\\uiv\\": "src"
+        }
+    },   
+    "autoload-dev": {
+        "psr-4": {
+            "sfmobile_unit\\vueapp\\assets\\uiv\\": "tests"
+        }
+    },    
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }    
+}
